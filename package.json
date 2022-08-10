@@ -41,6 +41,7 @@
     "eslint": "^7.7.0",
     "jsonwebtoken": "^8.5.1",
     "lint-staged": "^10.0.9",
+    "lit-js-sdk": "^1.1.207",
     "lodash": "^4.17.14"
   },
   "devDependencies": {
