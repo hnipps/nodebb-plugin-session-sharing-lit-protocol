@@ -1,33 +1,22 @@
 {
-  "name": "nodebb-plugin-session-sharing",
-  "version": "5.1.9",
-  "description": "Allows login sessions from your app to persist in NodeBB",
+  "name": "nodebb-plugin-session-sharing-lit-protocol",
+  "version": "1.0.0",
+  "description": "Allows login sessions from Lit Protocol to persist in NodeBB",
   "main": "library.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-session-sharing"
-  },
   "keywords": [
     "nodebb",
-    "plugin"
+    "plugin",
+    "lit protocol",
+    "web3"
   ],
   "author": {
-    "name": "Julian Lam",
-    "email": "julian@nodebb.org"
+    "name": "Harry Nicholls",
+    "email": "harry.m.nicholls@gmail.com"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-session-sharing/issues"
-  },
   "readmeFilename": "README.md",
   "nbbpm": {
     "compatibility": "^1.17.2 || ^2.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "lint-staged": {
     "*.js": [
